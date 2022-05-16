@@ -11,7 +11,7 @@ import java.util.Optional;
 @Service
 public class EmployeeService implements IEmployeeService{
 
-    //@Autowired
+    @Autowired
     IEmployeeRepository iEmployeeRepository;
 
     @Override
